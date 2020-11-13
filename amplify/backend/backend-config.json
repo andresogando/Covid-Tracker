@@ -1,0 +1,15 @@
+{
+  "auth": {
+    "cognitoe031c98d": {
+      "service": "Cognito",
+      "serviceType": "managed",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "analytics": {
+    "covidtrackerKinesis": {
+      "service": "Kinesis",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

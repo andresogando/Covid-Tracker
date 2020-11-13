@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-covidtracker-dev-131633-authRole",
+      "UnauthRoleArn": "arn:aws:iam::852742705759:role/amplify-covidtracker-dev-131633-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::852742705759:role/amplify-covidtracker-dev-131633-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-covidtracker-dev-131633-deployment",
+      "UnauthRoleName": "amplify-covidtracker-dev-131633-unauthRole",
+      "StackName": "amplify-covidtracker-dev-131633",
+      "StackId": "arn:aws:cloudformation:us-east-1:852742705759:stack/amplify-covidtracker-dev-131633/fc0f7250-25d3-11eb-a8e6-0a4194e8a939",
+      "AmplifyAppId": "dnuszu3gk1kvw"
+    },
+    "categories": {
+      "auth": {
+        "cognitoe031c98d": {}
+      }
+    }
+  }
+}
