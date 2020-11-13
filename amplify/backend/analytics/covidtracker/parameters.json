@@ -1,0 +1,21 @@
+{
+    "appName": "covidtracker",
+    "roleName": "pinpointLambdaRole28a18cb9",
+    "cloudformationPolicyName": "cloudformationPolicy28a18cb9",
+    "cloudWatchPolicyName": "cloudWatchPolicy28a18cb9",
+    "pinpointPolicyName": "pinpointPolicy28a18cb9",
+    "authPolicyName": "pinpoint_amplify_28a18cb9",
+    "unauthPolicyName": "pinpoint_amplify_28a18cb9",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
